@@ -159,11 +159,40 @@ class SignUp extends StatelessWidget {
                             style: TextStyle(color: Colors.blue[400]),
                           ),
                         ),
-                        Text('---------------------OR---------------------',
-                            style: TextStyle(
-                              color: Colors.blue[400],
-                              fontWeight: FontWeight.bold,
-                            )),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Container(
+                              width: 100,
+                              child: Expanded(
+                                child: Divider(
+                                  thickness: 1,
+                                  color: Colors.purple[900],
+                                ),
+                              ),
+                            ),
+                            SizedBox(
+                              width: 20,
+                            ),
+                            Text('OR',
+                                style: TextStyle(
+                                  color: Colors.blue[400],
+                                  fontWeight: FontWeight.bold,
+                                )),
+                            SizedBox(
+                              width: 20,
+                            ),
+                            Container(
+                              width: 100,
+                              child: Expanded(
+                                child: Divider(
+                                  thickness: 1,
+                                  color: Colors.purple[900],
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
                         SizedBox(
                           height: 20,
                         ),
@@ -174,10 +203,13 @@ class SignUp extends StatelessWidget {
                             ElevatedButton(
                               onPressed: () {},
                               style: ButtonStyle(
-                                backgroundColor: MaterialStateProperty.all(Colors.white),
+                                backgroundColor:
+                                    MaterialStateProperty.all(Colors.white),
                                 elevation: MaterialStateProperty.all(0),
-                                shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(300))),
-
+                                shape: MaterialStateProperty.all(
+                                    RoundedRectangleBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(300))),
                               ),
                               child: Container(
                                 padding: EdgeInsets.all(13),
@@ -192,15 +224,16 @@ class SignUp extends StatelessWidget {
                                 ),
                               ),
                             ),
-                            
-
                             ElevatedButton(
                               onPressed: () {},
                               style: ButtonStyle(
-                                backgroundColor: MaterialStateProperty.all(Colors.white),
+                                backgroundColor:
+                                    MaterialStateProperty.all(Colors.white),
                                 elevation: MaterialStateProperty.all(0),
-                                shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(300))),
-
+                                shape: MaterialStateProperty.all(
+                                    RoundedRectangleBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(300))),
                               ),
                               child: Container(
                                 padding: EdgeInsets.all(13),
@@ -215,14 +248,16 @@ class SignUp extends StatelessWidget {
                                 ),
                               ),
                             ),
-                            
                             ElevatedButton(
                               onPressed: () {},
                               style: ButtonStyle(
-                                backgroundColor: MaterialStateProperty.all(Colors.white),
+                                backgroundColor:
+                                    MaterialStateProperty.all(Colors.white),
                                 elevation: MaterialStateProperty.all(0),
-                                shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(300))),
-
+                                shape: MaterialStateProperty.all(
+                                    RoundedRectangleBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(300))),
                               ),
                               child: Container(
                                 padding: EdgeInsets.all(13),
